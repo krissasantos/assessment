@@ -1,5 +1,5 @@
-# 1. Implement merge sort. What's the bigO and why?
-
+# 1. Implement merge sort. 
+# 2. What's the bigO and why? log n since in every iteration, the data is split in half and processed making it more efficient in performing the task
 
 
 # Merge Sort
