@@ -27,7 +27,7 @@ class Customer
 
 
   def add_review(review, restaurant)
-
+#      here these should be instance variables, because they are data particular to each individual instance.
     @@restaurants << restaurant
     @@reviews << review
 
