@@ -12,6 +12,7 @@ class Owner
   def restaurants
     sql = <<-SQL
       SELECT restaurants.* FROM restaurants WHERE 
+# restaurants.owner_id
       restaurant.owner_id == owner.id
     SQL
     self.class.db.execute(sql,self.id)
