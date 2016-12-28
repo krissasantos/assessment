@@ -13,6 +13,7 @@ class UsersController < ApplicationController
       render :new
     end
   end
+#   post /users
   # POST /users/create
 
   def index
@@ -40,6 +41,7 @@ class UsersController < ApplicationController
     end
   end
   # update
+#   patch /users/:id
   # POST /users/:id
 
   def destroy
