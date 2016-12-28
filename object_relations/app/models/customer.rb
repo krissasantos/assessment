@@ -27,7 +27,7 @@ class Customer
 
 
   def add_review(review, restaurant)
-
+#     for customers, you should map through the reviews and then get each review's customer.
     @@restaurants << restaurant
     @@reviews << review
 
